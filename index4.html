@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+                * {
+            padding: 0%;
+            margin: 0;
+        }
+        body{
+            background-color: black;
+        }
+        .nav {
+            background-color: rgba(3, 0, 51, 0.863);
+            color: azure;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+
+        }
+        h1{
+            padding: 20px;
+
+        }
+        .a11{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        a{
+            display: flex;
+            float:left;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            text-decoration: none;
+            color: orange;
+        }
+        a:hover{
+            color:brown;
+            
+        }
+        button{
+            color: black;
+            background-color: aliceblue;
+            border-radius: 10px;
+            height:40px;
+            width: 80px;
+            margin: 10px;
+        }
+        .cb{
+            color: aliceblue;
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: aliceblue;
+            position: absolute;
+            top: 250px;
+            left: 70%;
+            text-align: center;
+
+        }
+        #submit {
+        border: 2px solid yellow;
+        background-color: yellow;
+        }
+        .w{
+            color: aliceblue;
+        }
+        img {
+            height: 50px;
+            width: 50px;
+            margin-left: 60px;
+        }
+        pre{
+            margin: 10px;
+            color: aliceblue;
+            /* width: 450px; */
+            display: flex;
+
+
+        }
+        h3{
+            color: yellow;
+            margin-left: 170px;
+            margin-top: 100px;
+            width: 140px;
+        }
+        aside{
+            width: 50%;
+        }
+        @media (max-width:767px){
+        .form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: aliceblue;
+            position: absolute;
+            top: 600px;
+            left: 20%;
+            text-align: center;
+            height: 350px;
+        } 
+    }
+    </style>
+</head>
+<body>
+       <main class="con">
+        <div class="nav">
+            <h1>Daksh</h1>
+            <div class="a11">
+            <a href="http://127.0.0.1:5500/personal_portfolio.html" class="a1">Home</a>
+            <a href="http://127.0.0.1:5500/personal_portfolio_MyProjects.html" class="a3">My Projects</a>
+            <a href="http://127.0.0.1:5500/personal_portfolio_edu.html" class="a2">About Me</a>
+            <a href="http://127.0.0.1:5500/personal_portfolio_contact.html">Contact</a>
+            </main>
+            </div>
+        </div>
+        </div>
+    <aside>
+    <div class="db">
+    <h3> DON'T BE SHY</h3>
+    <pre style="font-size: large; margin-top: 10px;">
+        Feel free to get in touch with me.I am 
+        always open to discussing in new projects,
+        creative ideas or opportunities to be part 
+        of your visions.
+    </pre>
+    <img src="https://i.pinimg.com/736x/b5/d0/ef/b5d0efd5b4740a31165604b347a5ee3e.jpg">
+    <pre>
+        Mail me 
+        dk@mail.com
+    </pre>
+    <img src="https://i.pinimg.com/1200x/3c/38/86/3c3886bb934c86e2dfdce92d7958fc83.jpg">
+    <pre>
+         Call me 
+        @ +91 ***** *****
+    </pre>
+    </div>
+    </aside>
+    <main>
+    <form>
+    <div class="w">
+         <div class="form">
+            <h1> Get in Touch</h1>
+
+          <label id="SN">
+            <input type="text" placeholder="Please enter name" required>
+          </label>
+           <br>
+            <br>
+
+            <label id="email" >
+            <input type="email" placeholder="Please enter valid email id" required>
+          </label>
+          <br>
+          <br>
+           <label> 
+           <textarea rows="5" placeholder="Please enter query"></textarea>
+           </label>
+           <br>
+           <br>
+
+          <lable>
+            <input type="checkbox">
+            I accept the terms of service
+          </lable>
+          <div class="bu">
+            <button>Submit</button>
+          </div>
+        </div>
+    </div>
+    </form>
+    </main>
+</body>
+</html>
